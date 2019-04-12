@@ -38,18 +38,15 @@ int main()
 		{
 			if (arr[i][j] == '.')
 			{
-				if (arr[i][j + 1] == '.')
+				if (j < w - 1 && arr[i][j + 1] == '.')
 				{
 					arr[i][j] = arr[i][j + 1] = '2';
 					count++;
 				}
-				else if (i < h - 1)
+				else if (i < h - 1 && arr[i + 1][j] == '.')
 				{
-					if (arr[i + 1][j] == '.')
-					{
-						arr[i][j] = arr[i + 1][j] = '2';
-						count++;
-					}
+					arr[i][j] = arr[i + 1][j] = '2';
+					count++;
 				}
 				else
 				{
