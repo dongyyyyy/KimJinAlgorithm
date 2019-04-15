@@ -76,7 +76,7 @@ void input()
 		puts("");
 	}
 	/* Dynamic programming Algorithm */
-	for (i = 0; i < N; i++) 
+	for (i = 0; i < N; i++)
 	{
 		for (j = 0; j < N; j++)
 		{
