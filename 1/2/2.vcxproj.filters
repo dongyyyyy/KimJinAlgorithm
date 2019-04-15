@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="First.c">
+    <ClCompile Include="Second.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
