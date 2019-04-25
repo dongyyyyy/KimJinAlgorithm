@@ -9,6 +9,8 @@
 	if you are at location (x,y) in the grid, you can either move right i.e. (x,y+1) if that number is +- 1 or move down
 	i.e (x+1,y) if that number is +-1.
 */
+
+/* 추가 */
 #define N 4 // 배열의 크기를 직접 입력해줄 경우
 
 int max(int, int);
